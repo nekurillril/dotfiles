@@ -1,4 +1,4 @@
-#ARCHLINUX
+# ARCHLINUX
 
 ### Установка Archlinux
 ```
