@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nekurill/Pictures/wallpaper/SnowyMountains.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0f12",
+        "foreground": "#dee9ec",
+        "cursor": "#dee9ec"
+    },
+    "colors": {
+        "color0": "#0a0f12",
+        "color1": "#8EACB5",
+        "color2": "#D4BCBD",
+        "color3": "#90B9C4",
+        "color4": "#ABC9CF",
+        "color5": "#D7D3D3",
+        "color6": "#EBD6D1",
+        "color7": "#dee9ec",
+        "color8": "#9ba3a5",
+        "color9": "#8EACB5",
+        "color10": "#D4BCBD",
+        "color11": "#90B9C4",
+        "color12": "#ABC9CF",
+        "color13": "#D7D3D3",
+        "color14": "#EBD6D1",
+        "color15": "#dee9ec"
+    }
+}

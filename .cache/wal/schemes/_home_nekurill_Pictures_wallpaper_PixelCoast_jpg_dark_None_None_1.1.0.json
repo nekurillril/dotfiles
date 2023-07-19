@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nekurill/Pictures/wallpaper/PixelCoast.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0C0C0E",
+        "foreground": "#c5d0e0",
+        "cursor": "#c5d0e0"
+    },
+    "colors": {
+        "color0": "#0C0C0E",
+        "color1": "#69819F",
+        "color2": "#7791B1",
+        "color3": "#7A97C7",
+        "color4": "#829CBC",
+        "color5": "#8DA1BE",
+        "color6": "#8CA7C7",
+        "color7": "#c5d0e0",
+        "color8": "#89919c",
+        "color9": "#69819F",
+        "color10": "#7791B1",
+        "color11": "#7A97C7",
+        "color12": "#829CBC",
+        "color13": "#8DA1BE",
+        "color14": "#8CA7C7",
+        "color15": "#c5d0e0"
+    }
+}

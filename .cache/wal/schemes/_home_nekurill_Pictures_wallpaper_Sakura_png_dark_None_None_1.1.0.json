@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nekurill/Pictures/wallpaper/Sakura.png",
+    "alpha": "100",
+    "special": {
+        "background": "#151619",
+        "foreground": "#c8e8f1",
+        "cursor": "#c8e8f1"
+    },
+    "colors": {
+        "color0": "#151619",
+        "color1": "#B6A75F",
+        "color2": "#5D7083",
+        "color3": "#B1729B",
+        "color4": "#69BDCD",
+        "color5": "#DB95B1",
+        "color6": "#CFA6BF",
+        "color7": "#c8e8f1",
+        "color8": "#8ca2a8",
+        "color9": "#B6A75F",
+        "color10": "#5D7083",
+        "color11": "#B1729B",
+        "color12": "#69BDCD",
+        "color13": "#DB95B1",
+        "color14": "#CFA6BF",
+        "color15": "#c8e8f1"
+    }
+}

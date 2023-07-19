@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nekurill/Pictures/wallpaper/rofi.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0E0F13",
+        "foreground": "#c1b1ac",
+        "cursor": "#c1b1ac"
+    },
+    "colors": {
+        "color0": "#0E0F13",
+        "color1": "#453E46",
+        "color2": "#3A445A",
+        "color3": "#3D4A64",
+        "color4": "#494754",
+        "color5": "#6D595A",
+        "color6": "#495067",
+        "color7": "#c1b1ac",
+        "color8": "#877b78",
+        "color9": "#453E46",
+        "color10": "#3A445A",
+        "color11": "#3D4A64",
+        "color12": "#494754",
+        "color13": "#6D595A",
+        "color14": "#495067",
+        "color15": "#c1b1ac"
+    }
+}

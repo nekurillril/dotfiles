@@ -1,0 +1,24 @@
+wallpaper: "/home/nekurill/Pictures/wallpaper/OceanGirl.jpg"
+
+special:
+    background: "#091019"
+    foreground: "#e4ecf1"
+    cursor: "#e4ecf1"
+
+colors:
+    color0: "#091019"
+    color1: "#4C7694"
+    color2: "#609FAB"
+    color3: "#5498C0"
+    color4: "#AFB7AD"
+    color5: "#E3CAA9"
+    color6: "#EED6B4"
+    color7: "#e4ecf1"
+    color8: "#9fa5a8"
+    color9: "#4C7694"
+    color10: "#609FAB"
+    color11: "#5498C0"
+    color12: "#AFB7AD"
+    color13: "#E3CAA9"
+    color14: "#EED6B4"
+    color15: "#e4ecf1"

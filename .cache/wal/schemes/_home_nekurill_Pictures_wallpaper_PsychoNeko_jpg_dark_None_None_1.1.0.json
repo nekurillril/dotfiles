@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nekurill/Pictures/wallpaper/PsychoNeko.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0d0d0f",
+        "foreground": "#cccccc",
+        "cursor": "#cccccc"
+    },
+    "colors": {
+        "color0": "#0d0d0f",
+        "color1": "#4D4C4E",
+        "color2": "#605F5F",
+        "color3": "#6B6B6E",
+        "color4": "#86837C",
+        "color5": "#7E7E80",
+        "color6": "#8E8E8E",
+        "color7": "#cccccc",
+        "color8": "#8e8e8e",
+        "color9": "#4D4C4E",
+        "color10": "#605F5F",
+        "color11": "#6B6B6E",
+        "color12": "#86837C",
+        "color13": "#7E7E80",
+        "color14": "#8E8E8E",
+        "color15": "#cccccc"
+    }
+}

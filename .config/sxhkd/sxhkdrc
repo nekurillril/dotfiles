@@ -1,0 +1,109 @@
+
+###########################################
+####   ХОТКЕИ ДЛЯ ЗАПУСКА ПРИЛОЖЕНИЙ   ####
+###########################################
+
+super + @space
+		rofi -show drun
+
+super + f
+		chromium
+
+super + t
+		kitty
+
+super + e
+        thunar
+
+super + alt + @space
+		bash ~/.config/wallchanger/change.sh
+
+
+###########################################
+####        ПЕРЕКЛЮЧЕНИЕ БАРОВ         ####
+###########################################
+
+super + w
+        bash ~/.config/polybar/launch.sh
+
+super + b
+        bash ~/.config/polybar/nextbar.sh
+
+
+###########################################
+####          УПРАВЛЕНИЕ BSPWM         ####
+###########################################
+
+#ПЕРЕЗАГРУЗИТЬ КОНФИГ SXHKD
+super + Escape
+        pkill -USR1 -x sxhkd
+
+#ВЫЙТИ/ПЕРЕЗАГРУЗИТЬ BSPWM
+super + ctrl + {m,r}
+        bspc {quit,wm -r}
+
+#ЗАКРЫТЬ ОКНО ИЛИ УБИТЬ ЕГО
+super + {_, shift + }q
+	bspc node -{c}
+
+#ПЕРЕХОД В РЕЖИМ МОНОКЛЯ И ОБРАТНО
+super + a
+	bspc desktop -l next
+
+#ПОМЕНЯТЬ СТАТУС ОКНА НА ПЛАВАЮЩЕЕ/ТАЙЛОВОЕ
+super + s                                                                       
+    if [ -z "$(bspc query -N -n focused.floating)" ]; then \                    
+        bspc node focused -t floating; \                                        
+    else \                                                                      
+        bspc node focused -t tiled; \                                           
+    fi
+
+#ПОМЕНЯТЬ СТАТУС ОКНА НА ПОЛНОЭКРАННОЕ/ТАЙЛОВОЕ
+super + F11
+    if [ -z "$(bspc query -N -n focused.fullscreen)" ]; then \                    
+        bspc node focused -t fullscreen; \                                        
+    else \                                                                      
+        bspc node focused -t tiled; \                                           
+    fi
+
+
+###########################################
+####         УПРАВЛЕНИЕ ФОКУСОМ        ####
+###########################################
+
+#ПЕРЕМЕСТИТЬ ОКНО
+super + {_,shift + }{Left,Down,Up,Right}
+	bspc node -{f,s} {west,south,north,east}
+
+#ПЕРЕХОД ПО ВОРКСПЕЙСАМ
+super + {z,x}
+	bspc desktop -f {prev,next}.local
+
+#ПЕРЕКЛЮЧИТСЯ НА ВОРКСПЕЙС ИЛИ ПЕРЕТАЩИТЬ НА НЕГО АКТИВНОЕ ОКНО
+super + {_,shift + }{1-6}
+	bspc {desktop -f,node -d} '^{1-6}'
+
+
+###########################################
+####       ПРЕДВАРИТЕЛЬНЫМ ВЫБОР       ####
+###########################################
+
+#ВЫБРАТЬ НАПРАВЛЕНИЕ В КОТОРОМ ОТКРОЕТСЯ НОВОЕ ОКНО
+super + ctrl + {Left,Down,Up,Right}
+	bspc node -p {west,south,north,east}
+
+#ОТМЕНИТЬ НАПРАВЛЕНИЕ В КОТОРОМ ОТКРОЕТСЯ НОВОЕ ОКНО
+super + ctrl + space
+	bspc node -p cancel
+
+
+###########################################
+####   ПЕРЕМЕЩЕНИЕ/ИЗМЕНЕНИЕ РАЗМЕРА   ####
+###########################################
+
+#ИЗМЕНЕНИЕ РАЗМЕРА ОКОН
+super + alt + {Left,Down,Up,Right}
+  bspc node -z {left -20 0 || bspc node -z right -20 0, \
+                bottom 0 20 || bspc node -z top 0 20,\
+                top 0 -20 || bspc node -z bottom 0 -20,\
+                right 20 0 || bspc node -z left 20 0}

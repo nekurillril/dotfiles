@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nekurill/Pictures/wallpaper/JapanBook.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#312421",
+        "foreground": "#ddd7d2",
+        "cursor": "#ddd7d2"
+    },
+    "colors": {
+        "color0": "#312421",
+        "color1": "#A09192",
+        "color2": "#BAA899",
+        "color3": "#BCAFAB",
+        "color4": "#C09D93",
+        "color5": "#C2AF9E",
+        "color6": "#C5B5A8",
+        "color7": "#ddd7d2",
+        "color8": "#9a9693",
+        "color9": "#A09192",
+        "color10": "#BAA899",
+        "color11": "#BCAFAB",
+        "color12": "#C09D93",
+        "color13": "#C2AF9E",
+        "color14": "#C5B5A8",
+        "color15": "#ddd7d2"
+    }
+}

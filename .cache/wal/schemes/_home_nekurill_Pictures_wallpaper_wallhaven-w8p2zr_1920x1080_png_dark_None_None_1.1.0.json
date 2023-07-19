@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nekurill/Pictures/wallpaper/wallhaven-w8p2zr_1920x1080.png",
+    "alpha": "100",
+    "special": {
+        "background": "#261f1e",
+        "foreground": "#eee2e1",
+        "cursor": "#eee2e1"
+    },
+    "colors": {
+        "color0": "#261f1e",
+        "color1": "#C86F68",
+        "color2": "#F19176",
+        "color3": "#C6A375",
+        "color4": "#BA7B84",
+        "color5": "#D6BFA1",
+        "color6": "#E7ACAB",
+        "color7": "#eee2e1",
+        "color8": "#a69e9d",
+        "color9": "#C86F68",
+        "color10": "#F19176",
+        "color11": "#C6A375",
+        "color12": "#BA7B84",
+        "color13": "#D6BFA1",
+        "color14": "#E7ACAB",
+        "color15": "#eee2e1"
+    }
+}
