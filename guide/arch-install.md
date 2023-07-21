@@ -43,7 +43,7 @@ grub-install --target=x86_64-efi --bootloader-id=GRUB --efi-directory=/boot/efi 
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
-###Добавляем юзера, настраиваем локали и другую дичь
+### Добавляем юзера, настраиваем локали и другую дичь
 ```
 vim /etc/locale.gen
 
