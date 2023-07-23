@@ -37,9 +37,8 @@ grub-mkconfig -o /boot/grub/grub.cfg
 *Или так (если efi)*
 ```
 pacman -S grub os-prober efibootmgr
-mkdir /boot/efi
-mount /dev/sda1 /boot/efi
-grub-install --target=x86_64-efi --bootloader-id=GRUB --efi-directory=/boot/efi --removable
+
+grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
