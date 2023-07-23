@@ -52,7 +52,7 @@ ru_RU.UTF-8 UTF-8 #надо раскоментить
 locale-gen
 echo "LANG=ru_RU.UTF-8" > /etc/locale.conf
 
-ln -sf /usr/share/zoneinfo/Europe/Moscow /etc/localtim
+ln -sf /usr/share/zoneinfo/Europe/Moscow /etc/localtime
 hwclock --systohc
 
 echo PCname > /etc/hostname
