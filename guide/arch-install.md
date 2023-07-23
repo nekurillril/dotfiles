@@ -52,6 +52,10 @@ ru_RU.UTF-8 UTF-8 #надо раскоментить
 locale-gen
 echo "LANG=ru_RU.UTF-8" > /etc/locale.conf
 
+vim /etc/vconsole.conf
+KEYMAP=ru
+FONT=cyr-sun16
+
 ln -sf /usr/share/zoneinfo/Europe/Moscow /etc/localtime
 hwclock --systohc
 
