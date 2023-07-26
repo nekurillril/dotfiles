@@ -17,7 +17,7 @@ git base-devel btop vscode chromium telegram-desktop thunar neofetch gvfs gvfs-s
 ```
 ## BSPWM
 ```
-bspwm sxhkd rofi polybar picom kitty feh python-pywal xorg xorg-xinit xf86-video-ati || xf86-video-amdgpu || xf86-video-vesa
+bspwm sxhkd rofi polybar picom kitty feh python-pywal xorg xorg-xinit xf86-video-ati || xf86-video-amdgpu || xf86-video-vesa || xf86-video-vmware
 ```
 ## AUR
 ```
