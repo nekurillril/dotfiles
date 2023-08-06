@@ -27,21 +27,6 @@ arch-chroot /mnt
 passwd
 ```
 
-### Установка grub 
-```
-pacman -S grub os-prober
-
-grub-install /dev/sda
-grub-mkconfig -o /boot/grub/grub.cfg
-```
-*Или так (если efi)*
-```
-pacman -S grub os-prober efibootmgr
-
-grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
-grub-mkconfig -o /boot/grub/grub.cfg
-```
-
 ### Добавляем юзера, настраиваем локали и другую дичь
 ```
 vim /etc/locale.gen
@@ -61,7 +46,7 @@ hwclock --systohc
 
 echo PCname > /etc/hostname
 vim /etc/hosts
-127.0.1.1 localhost.localdomain PCname
+127.0.0.1 localhost.localdomain PCname
 
 useradd -m -g users -G wheel -s /bin/bash username
 passwd username
@@ -73,3 +58,18 @@ vim /etc/sudoers
 ```
 
 ###
+
+### Установка grub 
+```
+pacman -S grub os-prober
+
+grub-install /dev/sda
+grub-mkconfig -o /boot/grub/grub.cfg
+```
+*Или так (если efi)*
+```
+pacman -S grub os-prober efibootmgr
+
+grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
+grub-mkconfig -o /boot/grub/grub.cfg
+```
