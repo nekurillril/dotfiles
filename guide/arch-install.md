@@ -40,23 +40,25 @@ passwd
 ```
 vim /etc/locale.gen
 
-en_US.UTF-8 UTF-8 #надо раскоментить
-ru_RU.UTF-8 UTF-8 #надо раскоментить
+#en_US.UTF-8 UTF-8 #надо раскоментить
+#ru_RU.UTF-8 UTF-8 #надо раскоментить
 
 locale-gen
 echo "LANG=ru_RU.UTF-8" > /etc/locale.conf
-
-ln -sf /usr/share/zoneinfo/Europe/Moscow /etc/localtim
+```
+Время
+```
+ln -sf /usr/share/zoneinfo/Europe/Moscow /etc/localtime
 hwclock --systohc
 ```
 Имя ПК
 ```
-echo PCname > /etc/hostname
+echo [имя пк] > /etc/hostname
 vim /etc/hosts
-127.0.1.1 localhost.localdomain PCname
+127.0.1.1 localhost.localdomain [имя пк]
 
-useradd -m -g users -G wheel -s /bin/bash username
-passwd username
+useradd -m -g users -G wheel -s /bin/bash [Имя юзера]
+passwd [Имя юзера]
 ```
 Интернет
 ```
