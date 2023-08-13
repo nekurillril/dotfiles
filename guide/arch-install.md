@@ -45,6 +45,11 @@ vim /etc/locale.gen
 
 locale-gen
 echo "LANG=ru_RU.UTF-8" > /etc/locale.conf
+
+vim /etc/vconsole.conf
+#вводим строки
+KEYMAP=ru
+FONT=cyr-sun16
 ```
 Время
 ```
